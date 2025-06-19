@@ -121,18 +121,18 @@ body {
 .heart:before {
   content: "";
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   background-color: red;
-  top: -10px;
-  border-radius: 80px;
+  top: -40px;
+  border-radius: 50px;
 }
 .heart:after {
   content: "";
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   background-color: red;
-  right: -10px;
-  border-radius:80px;
+  right: -40px;
+  border-radius:50px;
 }
