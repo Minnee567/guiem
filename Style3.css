@@ -12,48 +12,48 @@ body {
 
 .back {
   position: relative;
-  width: 250px;
-  height: 200px;
+  width: 280px;
+  height: 230px;
   background: hwb(0 50% 6%);
 }
 .front {
   position: absolute;
-  border-right: 130px solid #f07575d9;
-  border-top: 100px solid transparent ;
-  border-bottom: 100px solid transparent;
+  border-right: 160px solid #f07575d9;
+  border-top: 130px solid transparent ;
+  border-bottom: 130px solid transparent;
   height: 0;
   width: 0;
   top: 0;
-  left: 120px;
+  left: 150px;
   z-index: 3;
 }
 .front:before {
   content: "";
   position: absolute;
-  border-left: 130px solid #e86e6ed9;
-  border-top: 100px solid transparent;
-  border-bottom: 100px solid transparent;
+  border-left: 160px solid #e86e6ed9;
+  border-top: 130px solid transparent;
+  border-bottom: 130px solid transparent;
   height: 0;
   width: 0;
-  top: -100px;
-  left: -120px;
+  top: -70px;
+  left: -90px;
 }
 .front:after {
   content: "";
   position: absolute;
-  border-bottom: 105px solid #ee7878d9;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
+  border-bottom: 135px solid #ee7878d9;
+  border-left: 155px solid transparent;
+  border-right: 155px solid transparent;
   height: 0;
   width: 0;
-  top: -5px;
-  left: -120px;
+  top: 25px;
+  left: -90px;
 }
 .top {
   position: absolute;
-  border-top: 105px solid #eb7474d9;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
+  border-top: 135px solid #eb7474d9;
+  border-left: 155px solid transparent;
+  border-right: 155px solid transparent;
   height: 0;
   width: 0;
   top: 0;
@@ -66,10 +66,10 @@ body {
 .letter {
   position: absolute;
   background: white;
-  width: 230px;
-  height: 180px;
-  top: 10px;
-  left: 10px;
+  width: 260px;
+  height: 210px;
+  top: 40px;
+  left: 40px;
   transition: 0.2s;
 }
 .envelope:hover .letter {
@@ -84,7 +84,7 @@ body {
 }
 .text {
   text-align: center;
-  font-size: 11px;
+  font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 20px;
   font-weight: bold;
@@ -97,13 +97,13 @@ body {
 /*---heart -----*/
 .heart {
   background-color: red;
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: 50px;
+  left: 50px;
   transform: rotate(-45deg);
-  box-shadow: -5px 10px 90px red;
+  box-shadow: 25px 40px 120px red;
   animation: untoldcoding 0.8s linear infinite;
 }
 
@@ -121,18 +121,18 @@ body {
 .heart:before {
   content: "";
   position: absolute;
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   background-color: red;
-  top: -40px;
-  border-radius: 50px;
+  top: -10px;
+  border-radius: 80px;
 }
 .heart:after {
   content: "";
   position: absolute;
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   background-color: red;
-  right: -40px;
-  border-radius:50px;
+  right: -10px;
+  border-radius:80px;
 }
