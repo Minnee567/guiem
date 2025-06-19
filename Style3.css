@@ -12,48 +12,48 @@ body {
 
 .back {
   position: relative;
-  width: 280px;
-  height: 230px;
+  width: 250px;
+  height: 200px;
   background: hwb(0 50% 6%);
 }
 .front {
   position: absolute;
-  border-right: 160px solid #f07575d9;
-  border-top: 130px solid transparent ;
-  border-bottom: 130px solid transparent;
+  border-right: 130px solid #f07575d9;
+  border-top: 100px solid transparent ;
+  border-bottom: 100px solid transparent;
   height: 0;
   width: 0;
   top: 0;
-  left: 150px;
+  left: 120px;
   z-index: 3;
 }
 .front:before {
   content: "";
   position: absolute;
-  border-left: 160px solid #e86e6ed9;
-  border-top: 130px solid transparent;
-  border-bottom: 130px solid transparent;
+  border-left: 130px solid #e86e6ed9;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
   height: 0;
   width: 0;
-  top: -70px;
-  left: -90px;
+  top: -100px;
+  left: -120px;
 }
 .front:after {
   content: "";
   position: absolute;
-  border-bottom: 135px solid #ee7878d9;
-  border-left: 155px solid transparent;
-  border-right: 155px solid transparent;
+  border-bottom: 105px solid #ee7878d9;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
   height: 0;
   width: 0;
-  top: 25px;
-  left: -90px;
+  top: 40px;
+  left: -120px;
 }
 .top {
   position: absolute;
-  border-top: 135px solid #eb7474d9;
-  border-left: 155px solid transparent;
-  border-right: 155px solid transparent;
+  border-top: 105px solid #eb7474d9;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
   height: 0;
   width: 0;
   top: 0;
@@ -68,8 +68,8 @@ body {
   background: white;
   width: 260px;
   height: 210px;
-  top: 40px;
-  left: 40px;
+  top: 10px;
+  left: 10px;
   transition: 0.2s;
 }
 .envelope:hover .letter {
